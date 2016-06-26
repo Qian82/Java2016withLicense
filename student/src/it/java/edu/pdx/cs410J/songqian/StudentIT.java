@@ -13,6 +13,7 @@ import static org.hamcrest.core.StringContains.containsString;
  * These tests extend <code>InvokeMainTestCase</code> which allows them
  * to easily invoke the <code>main</code> method of <code>Student</code>.
  */
+
 public class StudentIT extends InvokeMainTestCase {
   @Test
   public void invokingMainWithNoArgumentsHasExitCodeOf1() {

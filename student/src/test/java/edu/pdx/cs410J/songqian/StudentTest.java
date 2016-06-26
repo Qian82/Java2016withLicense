@@ -19,20 +19,45 @@ public class StudentTest
   @Test
   public void studentNamedPatIsNamedPat() {
     String name = "Pat";
-    Student pat = createStudentContainsName(name); //given
+    Student pat = createStudentWithName(name); //given
     assertThat(pat.getName(), equalTo(name)); //when and then
   }
+
+  /*private Student getStudentWithName(String name) {
+    return createStudentWithName(name);
+  }*/
 
   @Test
   public void studentDescriptionContainsName() {
     String name = "Pat";
-    Student student = createStudentContainsName(name);
+    Student student = createStudentWithName(name);
     assertThat(student.toString(), containsString(name));
   }
 
-  private Student createStudentContainsName(String name) {
+  private Student createStudentWithName(String name) {
     return new Student(name, new ArrayList(), 0.0, "Doesn't matter");
   }
+/*
+  @Test
+  public void studentDescriptionContainDifferentName(){
+    String name = "Pat2";
+    Student student = createStudentWithName(name);
+    assertThat(student.toString(), containsString(name));
 
+  }*/
+  @Test
+  public void studentDescriptionContainsGPA() {
+    double gpa = 1.23;
+    Student student = createStudentWithGPA(gpa);
+    assertThat(student.toString(), containsString(String.valueOf(gpa)));
+  }
+
+  private Student createStudentWithGPA(double gpa) {
+    return createStudentWithNameAndGpa("Name", gpa);
+  }
+
+  private Student createStudentWithNameAndGpa(String name, double gpa) {
+    return new Student(name, new ArrayList(), gpa, "Doesn't matter");
+  }
 
 }
