@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
+import static org.hamcrest.core.StringContains.containsString;
 
 /**
  * Unit tests for the Student class.  In addition to the JUnit annotations,
@@ -18,8 +19,20 @@ public class StudentTest
   @Test
   public void studentNamedPatIsNamedPat() {
     String name = "Pat";
-    Student pat = new Student(name, new ArrayList(), 0.0, "Doesn't matter");
-    assertThat(pat.getName(), equalTo(name));
+    Student pat = createStudentContainsName(name); //given
+    assertThat(pat.getName(), equalTo(name)); //when and then
   }
+
+  @Test
+  public void studentDescriptionContainsName() {
+    String name = "Pat";
+    Student student = createStudentContainsName(name);
+    assertThat(student.toString(), containsString(name));
+  }
+
+  private Student createStudentContainsName(String name) {
+    return new Student(name, new ArrayList(), 0.0, "Doesn't matter");
+  }
+
 
 }

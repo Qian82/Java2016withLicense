@@ -1,9 +1,10 @@
 package edu.pdx.cs410J.songqian;
 
 import edu.pdx.cs410J.InvokeMainTestCase;
+import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.junit.Test;
 
-import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat; //hamcrest is a library enables testing methods
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.hamcrest.core.StringContains.containsString;
 
@@ -25,5 +26,14 @@ public class StudentIT extends InvokeMainTestCase {
     assertThat(result.getErr(), containsString("Missing command line arguments"));
   }
 
+  @Ignore
+  @Test
+  public void endToEndIntegrationTest() {
+    MainMethodResult result = invokeMain(Student.class, "Dave", "mail", "3.64", "Algorithms", "Operating Systems", "Java");
+    String expected = "Dave has a GPA of 3.64 and is taking 3 classes: Algorithms, Operating systems and Java. He says " +
+            "\"This class is too much of work\".";
+    assertThat(result.getOut(), containsString(expected));
+    assertThat(result.getExitCode(), equalTo(0));
+  }
 
 }
