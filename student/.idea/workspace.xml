@@ -4,7 +4,6 @@
     <list default="true" id="2940876f-7d27-4b3b-b3fe-06b4209e35c9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/songqian/Student.java" afterPath="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/songqian/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/edu/pdx/cs410J/songqian/StudentTest.java" afterPath="$PROJECT_DIR$/src/test/java/edu/pdx/cs410J/songqian/StudentTest.java" />
     </list>
     <ignored path="student.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,8 +50,8 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/songqian/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+            <state relative-caret-position="275">
+              <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -702,7 +701,7 @@
       <updated>1466751262045</updated>
       <workItem from="1466751263448" duration="14205000" />
       <workItem from="1467311426697" duration="1101000" />
-      <workItem from="1467504025719" duration="12071000" />
+      <workItem from="1467504025719" duration="12310000" />
     </task>
     <task id="LOCAL-00001" summary="Added a degenerate implementation of returning the student's namee by the toString() method.">
       <created>1466920730994</created>
@@ -753,13 +752,17 @@
       <option name="project" value="LOCAL" />
       <updated>1467576791059</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Format the names of the classes the student takes.">
+      <created>1467579949503</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1467579949503</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentTest - 2016.07.03 at 12h 41m 24s.xml">
-      <configuration name="StudentTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StudentTest - 2016.07.03 at 12h 45m 48s.xml">
       <configuration name="StudentTest" configurationId="JUnit" />
     </history-entry>
@@ -787,9 +790,12 @@
     <history-entry file="StudentTest - 2016.07.03 at 14h 03m 13s.xml">
       <configuration name="StudentTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentTest - 2016.07.03 at 14h 08m 05s.xml">
+      <configuration name="StudentTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27377000" />
+    <option name="totallyTimeSpent" value="27616000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -849,7 +855,8 @@
     <MESSAGE value="A student who is taking 1 class." />
     <MESSAGE value="Zero, one and multiple classes have different formats." />
     <MESSAGE value="Name of the class is in toString()." />
-    <option name="LAST_COMMIT_MESSAGE" value="Name of the class is in toString()." />
+    <MESSAGE value="Format the names of the classes the student takes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Format the names of the classes the student takes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -969,8 +976,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/songqian/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+        <state relative-caret-position="275">
+          <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
