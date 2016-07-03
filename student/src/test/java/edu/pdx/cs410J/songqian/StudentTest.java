@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
+import static org.hamcrest.CoreMatchers.endsWith;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.hamcrest.core.StringContains.containsString;
@@ -65,7 +66,7 @@ public class StudentTest
   public void studentWithZeroClasses() {
     ArrayList<String> classes = new ArrayList<>();
     Student student = createStudentWithClasses(classes);
-    assertThat(student.toString(), containsString("0 classes."));
+    assertThat(student.toString(), endsWith("0 classes."));
   }
 
     private Student createStudentWithClasses(ArrayList<String> classes) {

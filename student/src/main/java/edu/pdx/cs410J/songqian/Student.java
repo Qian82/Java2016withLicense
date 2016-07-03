@@ -48,7 +48,7 @@ public class Student extends Human {
   public String toString() {
     //throw new UnsupportedOperationException("Not implemented yet");
     return getName() + " has a GPA of " + gpa + " and is taking " +
-            formatNumberOfClasses() + " " + formatClassNames();
+            formatNumberOfClasses() + formatClassNames();
   }
 
   private String formatClassNames() {
@@ -82,11 +82,11 @@ public class Student extends Human {
  //   return (numberOfClasses == 0 ? "0 classes." : (numberOfClasses == 1) ? "1 class:" : numberOfClasses + " classes:");
     switch (numberOfClasses) {
       case 0:
-        return "0 classes.";
+        return "0 classes";
       case 1:
-        return "1 class:";
+        return "1 class: ";
       default:
-        return numberOfClasses + " classes:";
+        return numberOfClasses + " classes: ";
     }
   }
 
