@@ -46,7 +46,21 @@ public class Student extends Human {
    */                                                                               
   public String toString() {
     //throw new UnsupportedOperationException("Not implemented yet");
-    return  getName() + gpa + classes.size() + " class(es)";
+    return getName() + gpa + formatNumberOfClasses();
+  }
+
+  private String formatNumberOfClasses() {
+    int numberOfClasses = classes.size();
+
+ //   return (numberOfClasses == 0 ? "0 classes." : (numberOfClasses == 1) ? "1 class:" : numberOfClasses + " classes:");
+    switch (numberOfClasses) {
+      case 0:
+        return "0 classes.";
+      case 1:
+        return "1 class:";
+      default:
+        return numberOfClasses + " classes:";
+    }
   }
 
   /**
