@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2940876f-7d27-4b3b-b3fe-06b4209e35c9" name="Default" comment="">
+    <list default="true" id="2940876f-7d27-4b3b-b3fe-06b4209e35c9" name="Default" comment="Verify that teh first sentence ends with the characters that we expected.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/songqian/Student.java" afterPath="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/songqian/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/edu/pdx/cs410J/songqian/StudentTest.java" afterPath="$PROJECT_DIR$/src/test/java/edu/pdx/cs410J/songqian/StudentTest.java" />
     </list>
     <ignored path="student.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -707,7 +705,7 @@
       <updated>1466751262045</updated>
       <workItem from="1466751263448" duration="14205000" />
       <workItem from="1467311426697" duration="1101000" />
-      <workItem from="1467504025719" duration="15780000" />
+      <workItem from="1467504025719" duration="15851000" />
     </task>
     <task id="LOCAL-00001" summary="Added a degenerate implementation of returning the student's namee by the toString() method.">
       <created>1466920730994</created>
@@ -779,7 +777,14 @@
       <option name="project" value="LOCAL" />
       <updated>1467583276624</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Verify that teh first sentence ends with the characters that we expected.">
+      <created>1467583609205</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1467583609206</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -815,7 +820,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31086000" />
+    <option name="totallyTimeSpent" value="31157000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -878,7 +883,8 @@
     <MESSAGE value="Format the names of the classes the student takes." />
     <MESSAGE value="Refactored the implementation of previous one and make i it more readable" />
     <MESSAGE value="Nicely format the first sentence of toString();" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nicely format the first sentence of toString();" />
+    <MESSAGE value="Verify that teh first sentence ends with the characters that we expected." />
+    <option name="LAST_COMMIT_MESSAGE" value="Verify that teh first sentence ends with the characters that we expected." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
