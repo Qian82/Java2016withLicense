@@ -155,17 +155,17 @@ public class StudentTest
         assertThat(female.toString(), containsString("She"));
     }
 
-//    @Test
-//    public void allCapsMaleStudentHasMalePronounInToString() {
-//        Student male = createStudentWithGender("MALE");
-//        assertThat(male.toString(), containsString("He"));
-//    }
-//
-//    @Test
-//    public void allCapsfemaleStudentHasFemalePronounInToString() {
-//        Student female = createStudentWithGender("FEMALE");
-//        assertThat(female.toString(), containsString("She"));
-//    }
+    @Test
+    public void allCapsMaleStudentHasMalePronounInToString() {
+        Student male = createStudentWithGender("MALE");
+        assertThat(male.toString(), containsString("He"));
+    }
+
+    @Test
+    public void allCapsfemaleStudentHasFemalePronounInToString() {
+        Student female = createStudentWithGender("FEMALE");
+        assertThat(female.toString(), containsString("She"));
+    }
 
 
     private Student createStudentWithGender(String gender) {

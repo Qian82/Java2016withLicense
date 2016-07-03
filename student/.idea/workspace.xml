@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2940876f-7d27-4b3b-b3fe-06b4209e35c9" name="Default" comment="">
+    <list default="true" id="2940876f-7d27-4b3b-b3fe-06b4209e35c9" name="Default" comment="Fix some failing tests that were caused by introduction of gender pronoun.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/songqian/Student.java" afterPath="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/songqian/Student.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/edu/pdx/cs410J/songqian/StudentTest.java" afterPath="$PROJECT_DIR$/src/test/java/edu/pdx/cs410J/songqian/StudentTest.java" />
@@ -36,29 +36,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StudentTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/pdx/cs410J/songqian/StudentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="151" column="9" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
+            <state relative-caret-position="60">
+              <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5415#5416#0" expanded="true" />
-                <element signature="e#5486#5487#0" expanded="true" />
+                <element signature="e#5393#5394#0" expanded="true" />
+                <element signature="e#5464#5465#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/songqian/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+            <state relative-caret-position="150">
+              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3134#3135#0" expanded="true" />
-                <element signature="e#3201#3202#0" expanded="true" />
+                <element signature="e#3154#3155#0" expanded="true" />
+                <element signature="e#3221#3222#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,8 +79,8 @@
       <list>
         <option value="$MAVEN_REPOSITORY$/edu/pdx/cs410J/projects/Summer2016/projects-Summer2016-tests.jar!/edu/pdx/cs410J/InvokeMainTestCase.class" />
         <option value="$PROJECT_DIR$/src/it/java/edu/pdx/cs410J/songqian/StudentIT.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/songqian/Student.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/pdx/cs410J/songqian/StudentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/songqian/Student.java" />
       </list>
     </option>
   </component>
@@ -720,7 +720,7 @@
       <updated>1466751262045</updated>
       <workItem from="1466751263448" duration="14205000" />
       <workItem from="1467311426697" duration="1101000" />
-      <workItem from="1467504025719" duration="19418000" />
+      <workItem from="1467504025719" duration="19675000" />
     </task>
     <task id="LOCAL-00001" summary="Added a degenerate implementation of returning the student's namee by the toString() method.">
       <created>1466920730994</created>
@@ -813,7 +813,14 @@
       <option name="project" value="LOCAL" />
       <updated>1467585343975</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Fix some failing tests.">
+      <created>1467587268459</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1467587268459</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -838,18 +845,18 @@
     <history-entry file="StudentTest - 2016.07.03 at 16h 06m 46s.xml">
       <configuration name="StudentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest_allCapsMaleStudentHasMalePronounInToString - 2016.07.03 at 15h 41m 38s.xml">
-      <configuration name="StudentTest.allCapsMaleStudentHasMalePronounInToString" configurationId="JUnit" />
+    <history-entry file="StudentTest - 2016.07.03 at 16h 10m 27s.xml">
+      <configuration name="StudentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest_allCapsfemaleStudentHasFemalePronounInToString - 2016.07.03 at 15h 41m 45s.xml">
-      <configuration name="StudentTest.allCapsfemaleStudentHasFemalePronounInToString" configurationId="JUnit" />
+    <history-entry file="StudentTest - 2016.07.03 at 16h 11m 04s.xml">
+      <configuration name="StudentTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StudentTest_allCapsfemaleStudentHasFemalePronounInToString - 2016.07.03 at 15h 52m 45s.xml">
       <configuration name="StudentTest.allCapsfemaleStudentHasFemalePronounInToString" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34724000" />
+    <option name="totallyTimeSpent" value="34981000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -914,7 +921,8 @@
     <MESSAGE value="Nicely format the first sentence of toString();" />
     <MESSAGE value="Verify that teh first sentence ends with the characters that we expected." />
     <MESSAGE value="In the second sentence, choose the appropriate pronoun for the student's gender." />
-    <option name="LAST_COMMIT_MESSAGE" value="In the second sentence, choose the appropriate pronoun for the student's gender." />
+    <MESSAGE value="Fix some failing tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix some failing tests." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -941,8 +949,8 @@
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5415#5416#0" expanded="true" />
-            <element signature="e#5486#5487#0" expanded="true" />
+            <element signature="e#5393#5394#0" expanded="true" />
+            <element signature="e#5464#5465#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -953,8 +961,8 @@
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3134#3135#0" expanded="true" />
-            <element signature="e#3201#3202#0" expanded="true" />
+            <element signature="e#3154#3155#0" expanded="true" />
+            <element signature="e#3221#3222#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -973,8 +981,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5415#5416#0" expanded="true" />
-            <element signature="e#5486#5487#0" expanded="true" />
+            <element signature="e#5393#5394#0" expanded="true" />
+            <element signature="e#5464#5465#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -985,8 +993,8 @@
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3134#3135#0" expanded="true" />
-            <element signature="e#3201#3202#0" expanded="true" />
+            <element signature="e#3154#3155#0" expanded="true" />
+            <element signature="e#3221#3222#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1030,26 +1038,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/songqian/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/pdx/cs410J/songqian/StudentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+        <state relative-caret-position="60">
+          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3134#3135#0" expanded="true" />
-            <element signature="e#3201#3202#0" expanded="true" />
+            <element signature="e#5393#5394#0" expanded="true" />
+            <element signature="e#5464#5465#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/pdx/cs410J/songqian/StudentTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/songqian/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="151" column="9" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
+        <state relative-caret-position="150">
+          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5415#5416#0" expanded="true" />
-            <element signature="e#5486#5487#0" expanded="true" />
+            <element signature="e#3154#3155#0" expanded="true" />
+            <element signature="e#3221#3222#0" expanded="true" />
           </folding>
         </state>
       </provider>
