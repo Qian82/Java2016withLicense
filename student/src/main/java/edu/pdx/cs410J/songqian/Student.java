@@ -48,7 +48,7 @@ public class Student extends Human {
     } else if (gender.equalsIgnoreCase("female")) {
       return Gender.FEMALE;
     } else {
-      throw new IllegalArgumentException("I don't konw about the " + gender + " gender");
+      throw new InvalidGenderException("I don't konw about the " + gender + " gender");
     }
   }
 

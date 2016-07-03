@@ -177,7 +177,12 @@ public class StudentTest
         assertThat(dave.toString(), endsWith("\"This class is too much work\"."));
     }
 
-    @Ignore
+    @Test(expected = InvalidGenderException.class)
+    public void whenGenderIsNeitherMaleNorFemaleAnInvalidGenderExceptionIsThrown(){
+        createStudentWithGender("sdffds");
+
+    }
+
   @Test
   public void allStudentAttributesAreIncludedInToString() {
         Student dave = getDaveStudent();
