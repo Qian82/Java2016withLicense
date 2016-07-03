@@ -39,8 +39,8 @@
       <file leaf-file-name="StudentTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/pdx/cs410J/songqian/StudentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="90" column="65" selection-start-line="90" selection-start-column="65" selection-end-line="90" selection-end-column="65" />
+            <state relative-caret-position="269">
+              <caret line="98" column="68" selection-start-line="98" selection-start-column="68" selection-end-line="98" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,8 +51,8 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/songqian/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="63" column="15" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
+            <state relative-caret-position="95">
+              <caret line="53" column="3" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -702,7 +702,7 @@
       <updated>1466751262045</updated>
       <workItem from="1466751263448" duration="14205000" />
       <workItem from="1467311426697" duration="1101000" />
-      <workItem from="1467504025719" duration="8900000" />
+      <workItem from="1467504025719" duration="10273000" />
     </task>
     <task id="LOCAL-00001" summary="Added a degenerate implementation of returning the student's namee by the toString() method.">
       <created>1466920730994</created>
@@ -739,13 +739,17 @@
       <option name="project" value="LOCAL" />
       <updated>1467572819954</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Zero, one and multiple classes have different formats.">
+      <created>1467575397172</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1467575397172</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentTest - 2016.07.03 at 12h 03m 48s.xml">
-      <configuration name="StudentTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StudentTest - 2016.07.03 at 12h 05m 55s.xml">
       <configuration name="StudentTest" configurationId="JUnit" />
     </history-entry>
@@ -773,9 +777,12 @@
     <history-entry file="StudentTest - 2016.07.03 at 12h 49m 05s.xml">
       <configuration name="StudentTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentTest - 2016.07.03 at 13h 10m 54s.xml">
+      <configuration name="StudentTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24206000" />
+    <option name="totallyTimeSpent" value="25579000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -833,7 +840,8 @@
     <MESSAGE value="Added Gpa to toString()" />
     <MESSAGE value="A student who is taking 0 classes." />
     <MESSAGE value="A student who is taking 1 class." />
-    <option name="LAST_COMMIT_MESSAGE" value="A student who is taking 1 class." />
+    <MESSAGE value="Zero, one and multiple classes have different formats." />
+    <option name="LAST_COMMIT_MESSAGE" value="Zero, one and multiple classes have different formats." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -933,16 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/pdx/cs410J/songqian/StudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="90" column="65" selection-start-line="90" selection-start-column="65" selection-end-line="90" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/it/java/edu/pdx/cs410J/songqian/StudentIT.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -951,10 +949,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/pdx/cs410J/songqian/StudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="98" column="68" selection-start-line="98" selection-start-column="68" selection-end-line="98" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/songqian/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="63" column="15" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
+        <state relative-caret-position="95">
+          <caret line="53" column="3" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -4,6 +4,7 @@ import edu.pdx.cs410J.lang.Human;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 
 /**                                                                                 
  * This class is represents a <code>Student</code>.                                 
@@ -46,7 +47,21 @@ public class Student extends Human {
    */                                                                               
   public String toString() {
     //throw new UnsupportedOperationException("Not implemented yet");
-    return getName() + gpa + formatNumberOfClasses();
+    return getName() + gpa + formatNumberOfClasses() + " " + formatClassNames();
+  }
+
+  private String formatClassNames() {
+ //   StringBuilder sb = new StringBuilder();
+    //this.classes.forEach(sb::append);
+//    for (String className : this.classes) {
+//      sb.append(className);
+//    }
+//    return sb.toString();
+    String s = "";
+    for (String className : this.classes) {
+      s += className;
+    }
+    return s;
   }
 
   private String formatNumberOfClasses() {
