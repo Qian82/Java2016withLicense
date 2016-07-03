@@ -13,6 +13,12 @@ public class Student extends Human {
 
   private final double gpa;
   private List<String> classes;
+  private Gender gender;
+
+  private enum Gender {
+    FEMALE, MALE
+
+  }
 
   /**
    * Creates a new <code>Student</code>                                             
@@ -29,8 +35,21 @@ public class Student extends Human {
    */                                                                               
   public Student(String name, List<String> classes, double gpa, String gender) {
     super(name);
+
     this.gpa = gpa;
     this.classes = classes;
+    this.gender = getGenderForString(gender);
+  }
+
+  private Gender getGenderForString(String gender) {
+    if (gender.equals("male")) {
+      return Gender.MALE;
+
+    } else if (gender.equals("female")) {
+      return Gender.FEMALE;
+    } else {
+      throw new IllegalArgumentException("I don't konw about the " + gender + " gender");
+    }
   }
 
   /**                                                                               
@@ -48,7 +67,11 @@ public class Student extends Human {
   public String toString() {
     //throw new UnsupportedOperationException("Not implemented yet");
     return getName() + " has a GPA of " + gpa + " and is taking " +
-            formatNumberOfClasses() + formatClassNames();
+            formatNumberOfClasses() + formatClassNames() + " " + getGenderPronoun();
+  }
+
+  private String getGenderPronoun() {
+    return (this.gender.equals(Gender.FEMALE) ? "She" : "He");
   }
 
   private String formatClassNames() {
