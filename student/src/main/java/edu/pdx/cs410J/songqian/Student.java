@@ -46,7 +46,7 @@ public class Student extends Human {
    */                                                                               
   public String toString() {
     //throw new UnsupportedOperationException("Not implemented yet");
-    return  getName() + gpa + classes.size() + " classes";
+    return  getName() + gpa + classes.size() + " class(es)";
   }
 
   /**
