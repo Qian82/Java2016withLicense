@@ -18,7 +18,7 @@ import static org.hamcrest.core.StringContains.containsString;
 public class StudentTest
 {
 
-    static final String DEFAULT_GENDER = "female";
+    private static final String DEFAULT_GENDER = "female";
 
     @Test
   public void studentNamedPatIsNamedPat() {
@@ -170,6 +170,11 @@ public class StudentTest
 
     private Student createStudentWithGender(String gender) {
         return new Student("", new ArrayList<>(), 1.23, gender);
+    }
+
+    public void allStudentsSayThisClassIsTooMuchWork() {
+        Student dave = getDaveStudent();
+        assertThat(dave.toString(), endsWith("\"This class is too much work\"."));
     }
 
     @Ignore
